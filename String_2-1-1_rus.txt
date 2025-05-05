@@ -1,0 +1,100 @@
+Мы идем на (эту) фабрику.#We go to the factory.
+(Эта) Комната имеет окно.#The room has a window.
+У меня есть велосипед.#I have a bicycle.
+Мы смотрим на (это) уличное движение.#We look at the traffic.
+Ты посещаешь ресторан.#You visit a restaurant.
+Он видит гостиницу.#He sees a hotel.
+Школа и учреждение.#A school and an office.
+Это (есть) станция.#It is a station.
+Это (не есть) станция.#It is not a station.
+(Эта) Станция (есть, находится) возле гостиницы.#The station is near the hotel.
+Он (есть, находится) в (этой) комнате.#He is in the room.
+Он (не есть) в (этой) комнате.#He is not in the room.
+Это (есть) учреждение.#It is an office.
+Это (есть) гостиница.#It is a hotel.
+Это (есть) станция.#It is a station.
+Это (не есть) гостиница.#It is not a hotel.
+Это (не есть) станция.#It is not a station.
+Я еду туда автобусом.#I go there by bus.
+Там я вижу магазин.#I see a shop there.
+В школе находится мальчик.#There is a boy at school.
+В комнате есть окно.#There is a window in the room.
+Там есть велосипед.#There is a bicycle there.
+Там есть вход.#There is an entrance there.
+Там есть фабрика.#There is a factory there.
+Это (есть) ресторан.#It's a restaurant.
+Там есть школа.#There's a school there.
+Там есть окно.#There's a window there.
+Это (есть) контора.#It's an office.
+Возле станции есть гостиница.#There's a hotel near the station.
+Я часто хожу в (тот) офис.#I often go to the office.
+Ты также смотришь на (эту) машину.#You also look at the car.
+Это не (есть) школа.#It's not a school.
+В (этом) доме есть мальчик.#There's a boy in the house.
+В (этом) доме есть велосипед.#There's a bicycle in the building.
+Я часто вижу (тех) ребят.#I often see the boys.
+Мы идем возле (этой) школы.#We walk near the school.
+Она тоже посещает (эту) церковь.#She also visits the church.
+Это здание (есть) не бюро (офис).#The building is not an office.
+Он не (есть) в комнате.#He is not in the room.
+Она часто бывает возле станции.#She is often near the station.
+Он также находится в Киеве.#He is also in Kiev.
+Она тоже получает машину.#She also gets a car.
+Он часто ждет около школы.#He often waits near the school.
+Я разговариваю с (этим) мальчиком.#I speak to the boy.
+Я работаю в Киеве.#I work in Kiev.
+Мы тоже знаем (это) здание.#We also know the building.
+Мне нравится (этот) велосипед.#I like the bicycle.
+Она любит ходить.#She likes to go.
+Мы ждем (этот) автобус.#We wait for the bus.
+Он работает в (этом) бюро.#He works at the office.
+работать на фабрике#to work at a factory
+получить велосипед#to get a bicycle
+нравиться говорить#to like to speak
+ждать автобус#to wait for the bus
+говорить с женщиной#to speak to a woman
+знать вход#to know the entrance
+Он не (есть) на работе.#He is not at work.
+Он не (есть) на работе.#He isn't at work.
+(Этот) мальчик не (есть) в школе.#The boy is not at school.
+(Этот) мальчик не (есть) в школе.#The boy isn't at school.
+Он идет в (эту) гостиницу.#He goes to the hotel.
+Он в (той) комнате.#He's in the room.
+Она смотрит на (это) окно.#She looks at the window.
+Я говорю с (тем) мальчиком.#I speak to the boy.
+Мы получаем (эту) машину.#We get the car.
+Она ждет (этот) поезд.#She waits for the train.
+Я часто хожу в (эту) церковь.#I often go to the church.
+Это возле (той) школы.#It's near the school.
+Это (есть) фабрика.#It's a factory.
+Я люблю работать.#I like to work.
+Она также знает (эту) гостиницу.#She also knows the hotel.
+Он не (есть) в школе.#He is not in the school.
+Я также вхожу в (это) здание.#I also enter the building.
+Он едет на велосипеде.#He goes by bicycle.
+(Этот) водитель идет на прогулку.#The driver goes for a walk.
+Он смотрит на (эту) работу.#He looks at the work.
+Это также речь.#It is also a speech.
+У (этого) водителя также есть красная машина.#The driver also has a red car.
+Итак, это хорошая речь.#So it's a good speech.
+Он часто идет вечером на прогулку.#He often goes for a walk in the evening.
+Мы должны смотреть на эту белую дверь.#We have to look at the white door.
+Она утром не в Киеве.#She's not in Kiev in the morning.
+Они также имеют пять машин.#They also have five cars.
+Я вижу возле работы двух парней.#I see two boys near the work.
+Это плохой велосипед.#It's a bad bicycle.
+пять окон#five windows
+два вечера#two evenings
+хорошая школа#a good school
+плохая работа#a bad work
+возле (этой) красной башни#near the red tower
+в (этом) белом магазине#in the white shop
+не утром#not in the morning
+хороший и плохой#good and bad
+не вечером#not in the evening
+работать в бюро#to work in an office
+Я жду плохую машину.#I wait for a bad car.
+Я должен иметь двух водителей.#I have to have two drivers.
+Она часто ходит на работу.#She often goes to work.
+Он также в (этом) белом здании.#He is also in the white building.
+В (этом) магазине есть хороший велосипед.#There's a good bicycle in the shop.

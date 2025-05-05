@@ -1,0 +1,36 @@
+У меня счет в этом надежном банке.#I have an account in this reliable bank.
+Вы хотите деньги или чек?#Do you want money or a cheque?
+Вы можете заплатить в рассрочку.#You can pay in instalments.
+Я могу получить здесь заём?#Can I get a loan here?
+Ставка процента очень высока.#The rate of interest is high.
+Вы принимаете монеты?#Do you take coins?
+Вам нужны эти формуляры.#You need these forms.
+Это полезная информация.#This is a useful information.
+Моё сальдо достаточно высоко?#Is my balance high enough?
+Он снял деньги со счета.#He made a withdrawal.
+Она делает вклады еженедельно.#She makes weekly deposits.
+Ставка процента повышается.#The rate of interest is rising.
+Для чего этот формуляр?#What is this form for?
+Сегодня я сниму деньги.#I shall make a withdrawal today.
+Как давно Вы имеете счет в банке?#How long have you had an account?
+Я дала ему чек.#I gave him a cheque.
+Это мой первый вклад.#This is my first deposit.
+Каково моё сальдо?#What is my balance?
+Нам нужно больше информации.#We need more information.
+Этот заём нужен нам сегодня.#We need this loan today.
+Это последняя рассрочка.#This is the last instalment.
+Он хочет обменять эти монеты.#He wants to change these coins.
+В этом гуду дела идут хорошо.#Business is good this year.
+Мебель была дешевой.#The furniture was cheap.
+Был сделан небольшой прогресс.#Little progress was made.
+Её силы были исчерпаны.#Her strength was exhausted.
+Доход достаточно высокий.#The revenue is high enough.
+Эти товары готовы.#This merchandise is ready.
+Они потеряли всю свою собственность.#They lost all their property.
+Эта мебель новая?#Is this furniture new?
+Доходы выросли.#The revenue has risen.
+У него много собственности?#Has he much property?
+У него достаточно сил для этой работы?#Has he enough strength for this work?
+Мы имеем с ним много дел.#We do much business with him.
+Был достигнут большой прогресс?#Has there been much progress?
+Они купили товары со скидкой.#They bought the merchandise at a discount.
