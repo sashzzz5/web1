@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренировка</title>
+	<link href="/web1/favicon.ico" rel="icon" type="image/ico" />
+    <style>
+	   /* Стили для центрирования элементов и установки их ширины */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      #container {
+	    width: 100%;
+		height: 320px;
+        //max-width: 1800px;    /* ширина поля вручную */ 
+	}
+      #text-input {
+	    height: 110px;          /* задаем высоту поля */
+        line-height: 100px;     /* задаем высоту строки текста */
+        vertical-align: middle; /* задаем вертикальное выравнивание */
+	    width: 100%;
+        //height: 100px;
+        box-sizing: border-box;
+		background-color: #FFFFCC;
+        border: none;
+		outline: none;
+        padding: 1px;
+		margin:  1px 0;
+        //text-align: center;
+		padding-left: 650px;
+        font-size: 30px;
+		font-weight: bold;
+		align-items: center;
+        justify-content: center;
+      }
+	    #text-input-typist {
+	    height: 110px;          /* задаем высоту поля */
+        line-height: 100px;     /* задаем высоту строки текста */
+        vertical-align: middle; /* задаем вертикальное выравнивание */
+	    width: 100%;
+        //height: 100px;
+        box-sizing: border-box;
+		background-color: #FFFFCC;
+        border: none;
+		outline: none;
+		padding: 1px;
+		margin: 1px 0;
+        //text-align: center;
+		padding-left: 650px;
+        font-size: 30px;
+		font-weight: bold;
+		align-items: center;
+        justify-content: center;
+      }
+	  #text-input_rus {
+	    height: 110px;          /* задаем высоту поля */
+        line-height: 100px;     /* задаем высоту строки текста */
+        vertical-align: middle; /* задаем вертикальное выравнивание */
+	    width: 100%;
+        //height: 100px;
+        box-sizing: border-box;
+		background-color: #FFFFCC;
+        border: none;
+		outline: none;
+        padding: 1px;
+		margin: 1px 0;
+        //text-align: center;
+		padding-left: 650px;
+        font-size: 30px;
+		font-weight: bold;
+		align-items: center;
+        justify-content: center;
+      }
+	  .hidden {
+			display: none;
+		}	
+    		
+		#left, #right {
+		    display: flex;
+            position: fixed;
+            bottom: 0;
+            height: 50%;
+            width: 50%;
+            align-items: flex-end;
+        }
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+		
+	 </style>
+</head>
+<body>
+
+    <div id="left" style="left"></div>
+    <div id="right" style="right"></div>
+
+   <div id="container">
+    <textarea class="text-input" id="text-input"></textarea>
+	<textarea class="text-input-typist" id="text-input-typist"></textarea>
+	<textarea class="hidden" id="text-input_rus"></textarea>
+   </div>	
+
+	
+</body>
+		
+		
+	<script>
+	
+	const params = new URLSearchParams(window.location.search);
+    const selectedFile = params.get('file');
+	
+	 const left = document.querySelector('#left');
+     const right = document.querySelector('#right');
+     const textInput = document.querySelector('#text-input');
+	 const textInputRus = document.querySelector('#text-input_rus');
+	 const textInputTypist = document.querySelector('#text-input-typist');
+	 textInputTypist.focus();
+	 let enterPressed = false;
+	
+	 //<textarea class="text-input-typist" id="text-input-typist" placeholder="Начните печатать в этом поле"></textarea>
+
+		// Fetch text file
+		if (selectedFile) {
+           fetch(selectedFile)
+			.then(response => response.text())
+			.then(data => {
+				const lines = data.split('\n').filter(Boolean); // Split text file into array of non-empty lines
+				
+				const shuffledLines = shuffleArray(lines); // Shuffle the lines randomly
+				let currentIndex = 0; // Initialize current index
+				
+				const textField1 = document.getElementById('text-input');
+				const textField2 = document.getElementById('text-input_rus');
+				
+                const updateTextFields = () => { // Function to update text fields
+                  if (currentIndex >= shuffledLines.length) { // Check if all lines have been displayed
+                  alert('Тест пройден');
+                  return;
+                  }
+                  const [firstPart, secondPart] = shuffledLines[currentIndex].split('#');
+                  textField1.value = firstPart;
+                  textField2.value = secondPart;
+                  textField2.classList.add('hidden');
+				  currentIndex++;
+                }
+
+                updateTextFields();
+				
+			
+
+
+                textInputTypist.addEventListener("keydown", function(event) {
+                 if (event.code === "Enter") { // Проверяем, была ли нажата клавиша Enter
+				   event.preventDefault(); // Остановить стандартное поведение браузера
+					if (!enterPressed) {
+                      event.preventDefault(); // Остановить стандартное поведение браузера
+                      textField2.classList.remove('hidden');
+					//console.log("Enter pressed for the first time.");
+					textInputTypist.focus(); // Устанавливаем фокус на поле для ввода текста
+					enterPressed = true;
+				} else {
+				  event.preventDefault(); // Остановить стандартное поведение браузера
+                  updateTextFields(); // Загружаем следующую строку
+                  textInputTypist.value = ''; // Очищаем поле для ввода текста
+                  textInputTypist.focus(); // Устанавливаем фокус на поле для ввода текста
+					//console.log("Enter pressed for the second time.");
+					//console.log("Test completed.");
+					enterPressed = false;
+				  }
+				 }
+                });
+					
+				document.addEventListener("keydown", function(event) {
+				 if (event.code === "ArrowDown") {
+                  event.preventDefault(); // Остановить стандартное поведение браузера
+                  //textInputRus.type = 'text-input_rus'; // Показать поле secondPart
+				  textField2.classList.remove('hidden');
+				  }
+                });
+
+                document.addEventListener("keydown", function(event) {
+                if (event.code === "ArrowUp") {
+	              event.preventDefault(); // Остановить стандартное поведение браузера
+				  textField2.classList.add('hidden');
+				  updateTextFields();
+	            }
+	  			});
+				
+				document.addEventListener("keydown", function(event) {
+                if (event.code === "Home") {
+	             //console.log("Return focus to textInputTypist ");
+				 textInputTypist.focus(); // Устанавливаем фокус на поле для ввода текста
+	            }
+	  			});
+				
+				
+				// Function to shuffle an array randomly
+                function shuffleArray(array) {
+                  let currentIndex = array.length;
+                  let temporaryValue, randomIndex;
+                  while (currentIndex !== 0) {
+                    randomIndex = Math.floor(Math.random() * currentIndex);
+                    currentIndex -= 1;
+                    temporaryValue = array[currentIndex];
+                    array[currentIndex] = array[randomIndex];
+                    array[randomIndex] = temporaryValue;
+                     }
+                return array;
+               }
+		});
+		}
+	</script>
+</html>

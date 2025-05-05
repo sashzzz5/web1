@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор урока</title>
+	<link href="/web1/favicon.ico" rel="icon" type="image/ico" />
+    <style>
+     /* Стили для центрирования элементов и установки их ширины */
+     body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }	
+	  
+    .styled select {
+       background: transparent;
+       width: 350px;
+       font-size: 20px;
+       font-weight: bold;
+       border: 1px solid #CCC;
+       height: 34px;
+    }
+	
+    .styled {
+       margin: 20px;
+       width: 350px;
+       height: 34px;
+       border: 1px solid #111;
+       border-radius: 3px;
+       overflow: hidden;
+       background-color: #FFFFCC;
+    }
+	
+	 </style>
+</head>
+<body>
+
+<div class="styled">
+<select id="file-select1">
+  <option value="">Выберите до части урока</option>
+  <option value="Mixed_to_1-1-1_rus.txt">Mixed_to_1-1-1</option>
+  <option value="Mixed_to_1-2-2_rus.txt">Mixed_to_1-2-2</option>
+  <option value="Mixed_to_2-1-1_rus.txt">Mixed_to_2-1-1</option>
+  <option value="Mixed_to_2-2-2_rus.txt">Mixed_to_2-2-2</option>
+  <option value="Mixed_to_3-1-1_rus.txt">Mixed_to_3-1-1</option>
+  
+  <option value="Mixed_to_3-2-2_rus.txt">Mixed_to_3-2-2</option>
+  <option value="Mixed_to_4-1-1_rus.txt">Mixed_to_4-1-1</option>
+ 
+  <option value="Mixed_to_4-2-2_rus.txt">Mixed_to_4-2-2</option>
+  <option value="Mixed_to_5-1-1_rus.txt">Mixed_to_5-1-1</option>
+  <option value="Mixed_to_5-2-2_rus.txt">Mixed_to_5-2-2</option>
+  <option value="Mixed_to_6-1-1_rus.txt">Mixed_to_6-1-1</option>
+  
+  <option value="Mixed_to_6-2-2_rus.txt">Mixed_to_6-2-2</option>
+  <option value="Mixed_to_7-1-1_rus.txt">Mixed_to_7-1-1</option>
+ 
+  <option value="Mixed_to_7-2-2_rus.txt">Mixed_to_7-2-2</option>
+  <option value="Mixed_to_8-1-1_rus.txt">Mixed_to_8-1-1</option>
+ 
+  <option value="Mixed_to_8-2-2_rus.txt">Mixed_to_8-2-2</option>
+  <option value="Mixed_to_9-1-1_rus.txt">Mixed_to_9-1-1</option>
+  
+  <option value="Mixed_to_9-2-2_rus.txt">Mixed_to_9-2-2</option>
+  <option value="Mixed_to_10-1-1_rus.txt">Mixed_to_10-1-1</option>
+ 
+  <option value="Mixed_to_10-2-2_rus.txt">Mixed_to_10-2-2</option>
+  <option value="Mixed_to_11-1-1_rus.txt">Mixed_to_11-1-1</option>
+  
+  <option value="Mixed_to_11-2-2_rus.txt">Mixed_to_11-2-2</option>
+  <option value="Mixed_to_12-1-1_rus.txt">Mixed_to_12-1-1</option>
+  
+  <option value="Mixed_to_12-2-2_rus.txt">Mixed_to_12-2-2</option>
+  <option value="Mixed_to_13-1-1_rus.txt">Mixed_to_13-1-1</option>
+  
+  <option value="Mixed_to_13-2-2_rus.txt">Mixed_to_13-2-2</option>
+  <option value="Mixed_to_14-1-1_rus.txt">Mixed_to_14-1-1</option>
+ 
+  <option value="Mixed_to_14-2-2_rus.txt">Mixed_to_14-2-2</option>
+  <option value="Mixed_to_15-1-1_rus.txt">Mixed_to_15-1-1</option>
+ 
+  <option value="Mixed_to_15-2-2_rus.txt">Mixed_to_15-2-2</option>
+  <option value="Mixed_to_16-1-1_rus.txt">Mixed_to_16-1-1</option>
+  
+  <option value="Mixed_to_16-2-2_rus.txt">Mixed_to_16-2-2</option>
+  <option value="Mixed_to_17-1-1_rus.txt">Mixed_to_17-1-1</option>
+ 
+  <option value="Mixed_to_17-2-1_rus.txt">Mixed_to_17-2-1</option>
+  <option value="Mixed_to_17-2-2_rus.txt">Mixed_to_17-2-2</option>
+  <option value="Mixed_to_18-1-1_rus.txt">Mixed_to_18-1-1</option>
+  <option value="Mixed_to_18-1-2_rus.txt">Mixed_to_18-1-2</option>
+ 
+  <option value="Mixed_to_18-2-2_rus.txt">Mixed_to_18-2-2</option>
+  <option value="Mixed_to_19-1-1_rus.txt">Mixed_to_19-1-1</option>
+  <option value="Mixed_to_19-1-2_rus.txt">Mixed_to_19-1-2</option>
+  <option value="Mixed_to_19-2-1_rus.txt">Mixed_to_19-2-1</option>
+  <option value="Mixed_to_19-2-2_rus.txt">Mixed_to_19-2-2</option>
+  <option value="Mixed_to_20-1-1_rus.txt">Mixed_to_20-1-1</option>
+  <option value="Mixed_to_20-1-2_rus.txt">Mixed_to_20-1-2</option>
+ 
+  <option value="Mixed_to_20-2-2_rus.txt">Mixed_to_20-2-2</option>
+  <option value="Mixed_to_21-1-1_rus.txt">Mixed_to_21-1-1</option>
+  <option value="Mixed_to_21-1-2_rus.txt">Mixed_to_21-1-2</option>
+  <option value="Mixed_to_21-2-1_rus.txt">Mixed_to_21-2-1</option>
+  <option value="Mixed_to_21-2-2_rus.txt">Mixed_to_21-2-2</option>
+  <option value="Mixed_to_22-1-1_rus.txt">Mixed_to_22-1-1</option>
+  <option value="Mixed_to_22-1-2_rus.txt">Mixed_to_22-1-2</option>
+  
+  <option value="Mixed_to_22-2-2_rus.txt">Mixed_to_22-2-2</option>
+  <option value="Mixed_to_23-1-1_rus.txt">Mixed_to_23-1-1</option>
+  <option value="Mixed_to_23-1-2_rus.txt">Mixed_to_23-1-2</option>
+  <option value="Mixed_to_23-2-1_rus.txt">Mixed_to_23-2-1</option>
+  <option value="Mixed_to_23-2-2_rus.txt">Mixed_to_23-2-2</option>
+  <option value="Mixed_to_24-1-1_rus.txt">Mixed_to_24-1-1</option>
+  <option value="Mixed_to_24-1-2_rus.txt">Mixed_to_24-1-2</option>
+ 
+  <option value="Mixed_to_24-2-2_rus.txt">Mixed_to_24-2-2</option>
+  <option value="Mixed_to_25-1-1_rus.txt">Mixed_to_25-1-1</option>
+  <option value="Mixed_to_25-1-2_rus.txt">Mixed_to_25-1-2</option>
+  <option value="Mixed_to_25-2-1_rus.txt">Mixed_to_25-2-1</option>
+  <option value="Mixed_to_25-2-2_rus.txt">Mixed_to_25-2-2</option>
+  <option value="Mixed_to_26-1-1_rus.txt">Mixed_to_26-1-1</option>
+  <option value="Mixed_to_26-1-2_rus.txt">Mixed_to_26-1-2</option>
+  
+  <option value="Mixed_to_26-2-2_rus.txt">Mixed_to_26-2-2</option>
+  <option value="Mixed_to_27-1-1_rus.txt">Mixed_to_27-1-1</option>
+  <option value="Mixed_to_27-1-2_rus.txt">Mixed_to_27-1-2</option>
+  <option value="Mixed_to_27-2-1_rus.txt">Mixed_to_27-2-1</option>
+  <option value="Mixed_to_27-2-2_rus.txt">Mixed_to_27-2-2</option>
+  <option value="Mixed_to_28-1-1_rus.txt">Mixed_to_28-1-1</option>
+  <option value="Mixed_to_28-1-2_rus.txt">Mixed_to_28-1-2</option>
+ 
+  <option value="Mixed_to_28-2-2_rus.txt">Mixed_to_28-2-2</option>
+  <option value="Mixed_to_29-1-1_rus.txt">Mixed_to_29-1-1</option>
+  <option value="Mixed_to_29-1-2_rus.txt">Mixed_to_29-1-2</option>
+  <option value="Mixed_to_29-2-1_rus.txt">Mixed_to_29-2-1</option>
+  <option value="Mixed_to_29-2-2_rus.txt">Mixed_to_29-2-2</option>
+  <option value="Mixed_to_30-1-1_rus.txt">Mixed_to_30-1-1</option>
+  <option value="Mixed_to_30-1-2_rus.txt">Mixed_to_30-1-2</option>
+  
+  <option value="Mixed_to_30-2-2_rus.txt">Mixed_to_30-2-2</option>
+  <option value="Mixed_to_31-1-1_rus.txt">Mixed_to_31-1-1</option>
+  <option value="Mixed_to_31-1-2_rus.txt">Mixed_to_31-1-2</option>
+  <option value="Mixed_to_31-2-1_rus.txt">Mixed_to_31-2-1</option>
+  <option value="Mixed_to_31-2-2_rus.txt">Mixed_to_31-2-2</option>
+  <option value="Mixed_to_32-1-1_rus.txt">Mixed_to_32-1-1</option>
+  <option value="Mixed_to_32-1-2_rus.txt">Mixed_to_32-1-2</option>
+ 
+  <option value="Mixed_to_32-2-2_rus.txt">Mixed_to_32-2-2</option>
+</select>
+</div>
+<button id="load-file-btn1">Загрузить файл</button>
+
+	
+	
+</body>
+	<script>
+  const fileSelect1 = document.getElementById('file-select1');
+  const loadFileBtn1 = document.getElementById('load-file-btn1');
+   
+
+  loadFileBtn1.addEventListener('click', () => {
+    const selectedFile = fileSelect1.value;
+    if (selectedFile) {
+      window.location.href = `text_String_typist_rus.html?file=${selectedFile}`;
+    }
+  });
+ 
+  
+</script>	
+	
+</html>
