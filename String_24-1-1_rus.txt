@@ -41,7 +41,7 @@
 Этот урожай богаче, чем предыдущий.#This crop is more abundant than the previous one.
 На селе нет большого дорожного движения.#There is not much traffic in the country.
 Я нашел книгу, (какую?) которую я искал.#I have found the book, which I was looking for.
-Книги, (которые лежат на столе)б должны быть возвращены в библиотеку сегодня.#The books, which are on the table, must be returned to the library today.
+Книги, (которые лежат на столе), должны быть возвращены в библиотеку сегодня.#The books, which are on the table, must be returned to the library today.
 Мой отец, которому 50 лет - полицейский.#My father, who is fifty years old, is a policeman.
 Те мальчики, которые идут в школу, опоздают.#Those boys, who are going to school, will be late.
 Наши поля, которые находятся возле реки, не нуждаются в удобрении.#Our fields, which are near the river, need no fertilizer.
